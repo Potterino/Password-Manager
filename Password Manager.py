@@ -293,9 +293,3 @@ while running is True:
     else:
         i1 = get_add_retrieve_exit_input()
         i1 = check_add_retrieve_exit(i1)
-
-
-# TEST import
-#if __name__ == "__main__":
-#    import doctest
-#    doctest.testmod(verbose=True)
