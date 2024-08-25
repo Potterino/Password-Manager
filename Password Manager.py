@@ -5,12 +5,12 @@ import functions
 # to save the file to another location. IMPORTANT: If you change this, make sure to use a raw string format to
 # pass the path ( r"...."). Otherwise an error will be raised.
 
-default_file_location = r"C:\Users\Ferdi\Desktop"
+default_file_location = r"C:\Users\User"
 
 # The file name can be changed as well. Make sure to use a .txt format and always write out the whole file
 # including the txt extension as shown in this default file name.
 
-file_name = "password.txt"
+file_name = "filename.txt"
 full_path = default_file_location + "\\" + file_name
 
 
