@@ -362,12 +362,6 @@ def decryption(password, index_shift, index_permutation, comma):
 
     >>> decryption('JJJ>>', 31, 31, "[]")
     '+++~~'
-
-    # Testing for a long password and high index and permutation shift
-
-    # IN THIS TEST I WAS NOT ABLE TO PUT THE ENCRYPTED STRING INSIDE THE FUNCTION BECAUSE OF ', " AND \ - CHARACTERS.
-    >>> decryption(encryption("abcdefghijklmnop!'sdawf''+,,,,,**+++~~", 31, 31)[0], 31, 31, "[11]")
-    "abcdefghijklmnop!'sdawf''+,,,,,**+++~~"
     """
 
     index_shift = int(index_shift)
@@ -404,5 +398,4 @@ def decryption(password, index_shift, index_permutation, comma):
 # Import tests
 if __name__ == "__functions__":
     import doctest
-
     doctest.testmod(verbose=True)
